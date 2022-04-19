@@ -6,7 +6,7 @@
     "version": "5.4.0"
   },
   "dependencies": {
-    "@neilsustc/markdown-it-katex": "^0.6.1",
+    "@neilsustc/markdown-it-katex": "^1.0.0",
     "core-js": "^3.10.2",
     "hexo": "^5.4.2",
     "hexo-asset-file": "^1.0.3",

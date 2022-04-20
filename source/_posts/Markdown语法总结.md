@@ -6,7 +6,7 @@ tags:
   - typora
 categories: Markdown
 katex: true
-cover: /img/markdown.png
+cover: /images/markdown.png
 ---
 
 > [Markdown](https://baike.baidu.com/item/markdown) 是一种轻量级标记语言，由 John Gruber 在2004年创造，其目的是希望大家使用“易于阅读、易于撰写的纯文字格式，并选择性的转换成有效的XHTML（或是HTML）”。 其中最重要的设计是可读性，也就是说这个语言应该要能直接在字面上的被阅读，而不用被一些格式化指令标记（像是RTF与HTML）。

@@ -5,7 +5,7 @@ tags:
   - Python
   - 笔记
 categories: python
-top_img: /images/python.jpg
+cover: /images/python.jpg
 ---
 # Python解释器
 

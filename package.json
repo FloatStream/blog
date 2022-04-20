@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "5.4.0"
+    "version": "5.4.2"
   },
   "dependencies": {
     "@neilsustc/markdown-it-katex": "^1.0.0",
@@ -22,6 +22,7 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^3.0.0",
+    "hexo-theme-butterfly": "^4.1.0",
     "hexo-wordcount": "^6.0.1",
     "markdown-it-checkbox": "^1.1.0"
   },

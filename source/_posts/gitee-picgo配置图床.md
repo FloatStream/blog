@@ -5,7 +5,7 @@ tags:
   - picgo-core
   - 图床
 categories: 图床配置
-cover: /img/picgo.png
+cover: /images/picgo.png
 ---
 
 > 在初学markdown的过程中，图片的引用总是初学者头疼的事情，不同于word，在markdown的书写过程中，对于图片的插入其实是对于图片资源的引用，所以如果看文档的人无法访问图片资源，那么就会出现图片加载失败的情况，通常我们用图床工具来实现本地资源与网络资源的自动转换。以下就是在typora下用picgo-core配置图床的过程

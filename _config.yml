@@ -4,7 +4,7 @@
 
 # Site
 title: 折月煮酒
-subtitle: 'Two people''s blog'
+subtitle: "Two people's blog"
 description:
 keywords:
 author: aveandar
@@ -13,9 +13,9 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://floatstream.github.io
+url: http://floatstream.vercel.app
 root: /
-permalink: :year/:month/:day/:title/
+permalink: post/:name/
 permalink_defaults:
 
 # Directory
@@ -79,6 +79,10 @@ pagination_dir: page
 theme: butterfly
 plugin:
   - hexo-generator-feed
+
+# include/exclude/ignore
+exclude:
+  - images
 
 # rss
 feed:

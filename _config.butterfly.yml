@@ -13,7 +13,18 @@ menu:
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
   Python笔记 || fa-brands fa-python:
-    Python解释器: /post/0-Python解释器/ || fa-solid fa-0
+    0-Python解释器: /post/0-Python解释器/ || fa-solid fa-angle-right
+    1-基本语法: /post/1-基本语法/ || fa-solid fa-angle-right
+    2-基本数据结构: /post/2-基本数据结构/ || fa-solid fa-angle-right
+    3-函数详解: /post/3-函数详解/ || fa-solid fa-angle-right
+    4-模块详解: /post/4-模块详解/ || fa-solid fa-angle-right
+    5-高级特性: /post/5-高级特性/ || fa-solid fa-angle-right
+    6-面向对象编程: /post/6-面向对象编程/ || fa-solid fa-angle-right
+    7-错误与异常处理: /post/7-错误与异常处理/ || fa-solid fa-angle-right
+    8-IO编程: /post/8-IO编程/ || fa-solid fa-angle-right
+    9-进程与线程: /post/9-进程与线程/ || fa-solid fa-angle-right
+    10-正则表达式: /post/10-正则表达式/ || fa-solid fa-angle-right
+    11-Scrapy爬虫框架: /post/11-Scrapy爬虫框架/ || fa-solid fa-angle-right
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video

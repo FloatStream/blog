@@ -1,12 +1,13 @@
 ---
 title: Python解释器
-date: 2022-04-20 21:07:37
 tags:
   - Python
   - 笔记
 categories: python
 cover: /images/python.jpg
+date: 2022-04-23 14:46:36
 ---
+
 # Python解释器
 
 - CPython: 官方开发的 `Python` 解释器, 使用 `C语言` 开发

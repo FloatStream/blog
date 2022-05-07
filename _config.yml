@@ -3,10 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 折月煮酒
+title: Float's Blog
 subtitle: "Two people's blog"
-description:
+description: 随便写点什么
 keywords:
+  - 笔记
+  - 技术
 author: aveandar
 language: zh-CN
 timezone:
@@ -79,6 +81,8 @@ pagination_dir: page
 theme: butterfly
 plugin:
   - hexo-generator-feed
+  - hexo-generator-sitemap
+  - hexo-filter-nofollow
 
 # include/exclude/ignore
 exclude:
@@ -98,6 +102,21 @@ feed:
   icon: #icon.png
   autodiscovery: true
   template:
+
+# sitemap
+sitemap:
+  path:
+    - sitemap.xml
+    - sitemap.txt
+  tags: true
+  categories: true
+  rel: true
+
+# nofollow
+nofollow:
+  enable: true
+  field: site
+  exclude:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -130,11 +149,11 @@ markdown:
       options:
         strict: false
   anchors:
-    level: 2
+    level: 1
     collisionSuffix: 'x'
-    permalink: false
+    permalink: true
     permalinkClass: 'header-anchor'
-    permalinkSide: 'left'
+    permalinkSide: 'right'
     permalinkSymbol: '¶'
     case: 0
     separator: '-'

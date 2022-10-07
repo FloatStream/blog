@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "5.4.2"
+    "version": "6.3.0"
   },
   "dependencies": {
     "@neilsustc/markdown-it-katex": "^1.0.0",
@@ -26,7 +26,7 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-butterfly": "^4.4.0",
     "hexo-wordcount": "^6.0.1",
-    "markdown-it-checkbox": "^1.1.0"
+    "markdown-it-task-checkbox": "^1.0.6"
   },
   "scripts": {
     "dev": "hexo server -p $PORT",

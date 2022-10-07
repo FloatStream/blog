@@ -48,16 +48,16 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -97,7 +97,7 @@ feed:
   hub:
   content:
   content_limit: 140
-  content_limit_delim: ' '
+  content_limit_delim: " "
   order_by: -date
   icon: #icon.png
   autodiscovery: true
@@ -133,9 +133,8 @@ markdown:
     breaks: true
     linkify: true
     typographer: true
-    quotes: '“”‘’'
+    quotes: "“”‘’"
   plugins:
-    - markdown-it-deflist
     - markdown-it-emoji
     - markdown-it-footnote
     - markdown-it-ins
@@ -143,17 +142,16 @@ markdown:
     - markdown-it-sub
     - markdown-it-sup
     - markdown-it-cjk-breaks
-    - markdown-it-checkbox
-    #- name: 'markdown-it-task-checkbox'
-    - name: '@neilsustc/markdown-it-katex'
+    - markdown-it-task-checkbox
+    - name: "@neilsustc/markdown-it-katex"
       options:
         strict: false
   anchors:
     level: 1
-    collisionSuffix: 'x'
+    collisionSuffix: "x"
     permalink: true
-    permalinkClass: 'header-anchor'
-    permalinkSide: 'right'
-    permalinkSymbol: '¶'
+    permalinkClass: "header-anchor"
+    permalinkSide: "right"
+    permalinkSymbol: "¶"
     case: 0
-    separator: '-'
+    separator: "-"

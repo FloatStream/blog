@@ -10,3 +10,6 @@ public/
 node_modules/
 .vercelignore
 themes/
+
+# fnm
+.node-version

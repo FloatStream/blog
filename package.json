@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@neilsustc/markdown-it-katex": "^1.0.0",
-    "core-js": "^3.26.0",
+    "core-js": "^3.36.1",
     "hexo": "^7.1.1",
     "hexo-asset-file": "^1.0.3",
     "hexo-deployer-git": "^4.0.0",
